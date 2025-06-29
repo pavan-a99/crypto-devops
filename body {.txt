@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#coinContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.coin-card {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
